@@ -13,5 +13,6 @@ struct TunnelOfCirclesApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
     }
 }
